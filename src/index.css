@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+  
+  .dark {
+    color-scheme: dark;
+  }
+
+  .recharts-wrapper, 
+  .recharts-wrapper *,
+  .recharts-surface,
+  .recharts-surface:focus,
+  .recharts-wrapper:focus {
+    outline: none !important;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
