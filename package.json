@@ -20,7 +20,7 @@
     "date-fns": "^4.1.0",
     "dotenv": "^17.2.3",
     "express": "^4.21.2",
-    "glob": "^12.0.0",
+    "glob": "^12.0.2",
     "helmet": "^8.1.0",
     "lucide-react": "^0.546.0",
     "motion": "^12.23.24",
@@ -44,6 +44,8 @@
     "typescript": "~5.8.2"
   },
   "overrides": {
-    "glob": "^12.0.0"
+    "glob": "^12.0.2",
+    "prebuild-install": "npm:empty-package",
+    "node-domexception": "npm:empty-package"
   }
 }
